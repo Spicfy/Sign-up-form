@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+#Page{
+    margin-top: 0;
+    margin-left: 60px;
+    margin-right: 60px;
+    display:flex;
+
+}
+#fern{
+    height: 1024px; 
+}
+.odin{
+    height: 500px;
+    background-color: black;
+
+}
+.pic{
+    size: 40px;
+}
