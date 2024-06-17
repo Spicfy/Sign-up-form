@@ -58,8 +58,9 @@ body{
 .form{
     margin-top: 5rem;
 }
-.sign-up p{
+.msg{
     font-family: Arial;
+    font-size: 1.5rem;
 }
 
 form{
@@ -95,21 +96,32 @@ legend{
 
 .bottom{
     margin-top: 3rem;
+    position: relative;
+    top: -10px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
 }
 
 .bottom button{
-    
-    width: 8rem;
+
+    width: 11rem;
     height: 4rem;
     color: white;
     background-color: #596D48;
     border-radius: 10px;
     border: 1px solid #596D48;
+    font-family: arial;
+    font-size: 1rem;
 
 }
 fieldset{
+    width: 1200px;
     height: 400px;
     border: white;
+    box-shadow: 6px 6px 10px 0px rgba(0, 0, 0, 0.4);
+    position: relative;
+
 }
 
 
@@ -124,7 +136,7 @@ fieldset{
 .form .name input:invalid,
 .form .contact input:invalid,
 .form .password input:invalid {
-  border: 1px solid #D55C5F;
+  border: 3px solid #D55C5F;
   box-shadow: none;
 }
 
@@ -132,9 +144,17 @@ fieldset{
 .form .name input:focus:invalid,
 .form .contact input:focus:invalid,
 .form .password input:focus:invalid {
-  border: 1px solid #5c90d5;
+  border: 3px solid #5c90d5;
   border-color: #5c90d5;
 }
 
+.bottom p{
+    font-family: Arial;
+    font-size: 1rem;
+}
+
+.in{
+    margin: 30px;
+}
 
 
