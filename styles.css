@@ -112,8 +112,29 @@ fieldset{
     border: white;
 }
 
-input[type="text"]{
 
+
+.form .name input:focus,
+.form .contact input:focus,
+.form .password input:focus {
+  border: 1px solid #5c90d5;
+  border-color: #5c90d5;
 }
+
+.form .name input:invalid,
+.form .contact input:invalid,
+.form .password input:invalid {
+  border: 1px solid #D55C5F;
+  box-shadow: none;
+}
+
+/* Ensure focus styles override invalid styles when both are true */
+.form .name input:focus:invalid,
+.form .contact input:focus:invalid,
+.form .password input:focus:invalid {
+  border: 1px solid #5c90d5;
+  border-color: #5c90d5;
+}
+
 
 
